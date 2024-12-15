@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: poppins;
     background-color: black;
     display: flex;
@@ -22,7 +22,7 @@ body{
     flex-direction: column;
 }
 
-.display{
+.display {
     background-color: #1f1f1fc4;
     color: white;
     padding: 20px;
@@ -33,23 +33,23 @@ body{
     font-weight: 700;
 }
 
-#operator-sign{
+#operator-sign {
     color: #5b5b5b;
     font-size: 1.5rem;
 }
 
-.buttons{
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-.clear{
+.clear {
     grid-column: span 2;
     border-radius: 10px;
 }
 
-button{
+button {
     background-color: #333;
     border: none;
     color: white;
@@ -60,10 +60,14 @@ button{
     transition: background-color 0.3s;
 }
 
-button:hover{
+.btn:hover {
     background-color: #444;
 }
 
-.colored-btn{
+.colored-btn {
     background-color: #e88a00;
+}
+
+.colored-btn:hover {
+    background-color:rgb(176, 105, 0);
 }
